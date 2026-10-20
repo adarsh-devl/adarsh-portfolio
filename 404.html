@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 | Page Not Found</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            color: #f5f7ff;
+            background: radial-gradient(circle at top, #102c50, #070b16 65%);
+        }
+
+        .error-box {
+            max-width: 600px;
+            padding: 45px 25px;
+        }
+
+        h1 {
+            font-size: clamp(90px, 20vw, 160px);
+            line-height: 1;
+            color: #54d9ff;
+            text-shadow: 0 0 35px #168dff80;
+        }
+
+        h2 {
+            margin: 20px 0 12px;
+            font-size: 28px;
+        }
+
+        p {
+            color: #b8c5d9;
+            line-height: 1.7;
+            margin-bottom: 28px;
+        }
+
+        a {
+            display: inline-block;
+            padding: 14px 25px;
+            border-radius: 12px;
+            color: #07111f;
+            background: #62e6ff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 0 25px #36cfff80;
+        }
+    </style>
+</head>
+<body>
+    <main class="error-box">
+        <h1>404</h1>
+        <h2>Oops! Page Not Found</h2>
+        <p>
+            The page you're looking for doesn't exist
+            or may have been moved.
+        </p>
+        <a href="index.html">← Back to Home</a>
+    </main>
+</body>
+</html>
